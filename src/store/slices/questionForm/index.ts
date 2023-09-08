@@ -43,7 +43,7 @@ export const questionFormSlice = createSlice({
       return state.map((item) => {
         return {
           ...item,
-          isSaved: item.id == payload.payload.form_id ?? item.is_saved,
+          is_saved: item.id == payload.payload.form_id ?? item.is_saved,
         };
       });
     },
