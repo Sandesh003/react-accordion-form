@@ -25,6 +25,27 @@ export const fakeAPIResponse: QuestionAPIResponse[] = [
           "All points satisfied from 1 to 8 and customer likely to finalize within the next 1 months time.",
         answer: "No",
       },
+      {
+        q_id: "q-04",
+        type: "radio",
+        question:
+          "All points satisfied from 1 to 8 and customer likely to finalize within the next 1 months time.",
+        answer: "No",
+      },
+      {
+        q_id: "q-05",
+        type: "radio",
+        question:
+          "All points satisfied from 1 to 8 and customer likely to finalize within the next 1 months time.",
+        answer: "No",
+      },
+      {
+        q_id: "q-06",
+        type: "radio",
+        question:
+          "All points satisfied from 1 to 8 and customer likely to finalize within the next 1 months time.",
+        answer: "No",
+      },
     ],
     is_saved: false,
   },
@@ -62,7 +83,54 @@ export const fakeAPIResponse: QuestionAPIResponse[] = [
   },
   {
     id: "acc-3",
-    title: "Buying Platform",
+    title: "Question 3",
+    questions: [
+      {
+        q_id: "q-01",
+        type: "radio",
+        question: "Customer confirms order with approved Blister drawings",
+        answer: "No",
+      },
+      {
+        q_id: "q-02",
+        type: "radio",
+        question: "Advance is given.",
+        answer: "No",
+      },
+      {
+        q_id: "q-03",
+        type: "radio",
+        question:
+          "Final layout ready as per drawing and is ready at customer site",
+        answer: "No",
+      },
+      {
+        q_id: "q-04",
+        type: "radio",
+        question:
+          "Final layout ready as per drawing and is ready at customer site",
+        answer: "No",
+      },
+      {
+        q_id: "q-05",
+        type: "radio",
+        question:
+          "Final layout ready as per drawing and is ready at customer site",
+        answer: "No",
+      },
+      {
+        q_id: "q-06",
+        type: "radio",
+        question:
+          "Final layout ready as per drawing and is ready at customer site",
+        answer: "No",
+      },
+    ],
+    is_saved: false,
+  },
+  {
+    id: "acc-4",
+    title: "Question 4",
     questions: [
       {
         q_id: "q-01",
